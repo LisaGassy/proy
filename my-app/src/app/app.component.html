@@ -1,6 +1,4 @@
 <div>
-  <h2>hi {{name}}</h2>
-  <input type="text" [(ngModel)]="name" placeholder="name">
-  <input type="text" [(ngModel)]="age" placeholder="age">
-  <app-child [userName]="name" [useage]="age"></app-child>
+<app-child [(userName)]="name"></app-child>
+<h3>y name-{{name}}</h3>
 </div>
