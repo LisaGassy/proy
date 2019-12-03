@@ -9,5 +9,6 @@ import { FormsModule } from '@angular/forms';
 
 export class AppComponent {
   title="my-app"
-  name="Lis"
+  name:"Lis"
+  age:number=23
 }

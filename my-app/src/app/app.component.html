@@ -1,6 +1,6 @@
 <div>
   <h2>hi {{name}}</h2>
-  <input type="text" [value]="name">
   <input type="text" [(ngModel)]="name" placeholder="name">
-  <app-child></app-child>
+  <input type="text" [(ngModel)]="age" placeholder="age">
+  <app-child [userName]="name" [useage]="age"></app-child>
 </div>
