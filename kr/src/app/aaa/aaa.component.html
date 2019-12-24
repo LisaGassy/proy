@@ -1,5 +1,5 @@
 <div>
-    <form (onSubmit)='MakeLogin()'>
+    <form (ngSubmit)='MakeLogin()'>
         <input type="text" 
             placeholder="u login"
             [(ngModel)]="login"
@@ -10,4 +10,7 @@
             name="password">
         <input type="submit" value="go">
     </form>
+    <div *ngIf="entered">
+        <h1>vi voshli</h1>
+    </div>
 </div>
