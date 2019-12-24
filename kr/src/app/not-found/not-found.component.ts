@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./not-found.component.css']
 })
 export class NotFoundComponent implements OnInit {
-
+  pi:number=2048
+  wi:string="Ah wi morkovki"
   constructor() { }
 
   ngOnInit() {

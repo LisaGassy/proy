@@ -7,7 +7,7 @@ import { Component,OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChe
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy{
-  title = 'my-app';
+  title = "app-root"
   ngOnInit() { console.log('Oninit'); }
   ngOnChanges() { console.log("OnInit"); }
   ngDoCheck() { console.log('DoCheck'); }
